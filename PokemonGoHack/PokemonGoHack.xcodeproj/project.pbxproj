@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B272C501D442C6900A4F64C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B272C4F1D442C6900A4F64C /* main.m */; };
+		6B272C531D442C6900A4F64C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B272C521D442C6900A4F64C /* AppDelegate.m */; };
+		6B272C561D442C6900A4F64C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B272C551D442C6900A4F64C /* ViewController.m */; };
+		6B272C591D442C6900A4F64C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B272C571D442C6900A4F64C /* Main.storyboard */; };
+		6B272C5B1D442C6900A4F64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B272C5A1D442C6900A4F64C /* Assets.xcassets */; };
+		6B272C5E1D442C6900A4F64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B272C5C1D442C6900A4F64C /* LaunchScreen.storyboard */; };
+		6B272C661D442CCD00A4F64C /* file.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6B272C651D442CCD00A4F64C /* file.gpx */; };
+		6B272C681D442EA100A4F64C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B272C671D442EA100A4F64C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B272C4B1D442C6900A4F64C /* PokemonGoHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGoHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B272C4F1D442C6900A4F64C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B272C511D442C6900A4F64C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B272C521D442C6900A4F64C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B272C541D442C6900A4F64C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B272C551D442C6900A4F64C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B272C581D442C6900A4F64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B272C5A1D442C6900A4F64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B272C5D1D442C6900A4F64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B272C5F1D442C6900A4F64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B272C651D442CCD00A4F64C /* file.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = file.gpx; sourceTree = "<group>"; };
+		6B272C671D442EA100A4F64C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B272C481D442C6900A4F64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B272C681D442EA100A4F64C /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B272C421D442C6900A4F64C = {
+			isa = PBXGroup;
+			children = (
+				6B272C4D1D442C6900A4F64C /* PokemonGoHack */,
+				6B272C4C1D442C6900A4F64C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B272C4C1D442C6900A4F64C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B272C4B1D442C6900A4F64C /* PokemonGoHack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B272C4D1D442C6900A4F64C /* PokemonGoHack */ = {
+			isa = PBXGroup;
+			children = (
+				6B272C511D442C6900A4F64C /* AppDelegate.h */,
+				6B272C521D442C6900A4F64C /* AppDelegate.m */,
+				6B272C541D442C6900A4F64C /* ViewController.h */,
+				6B272C551D442C6900A4F64C /* ViewController.m */,
+				6B272C651D442CCD00A4F64C /* file.gpx */,
+				6B272C571D442C6900A4F64C /* Main.storyboard */,
+				6B272C5A1D442C6900A4F64C /* Assets.xcassets */,
+				6B272C5C1D442C6900A4F64C /* LaunchScreen.storyboard */,
+				6B272C5F1D442C6900A4F64C /* Info.plist */,
+				6B272C4E1D442C6900A4F64C /* Supporting Files */,
+			);
+			path = PokemonGoHack;
+			sourceTree = "<group>";
+		};
+		6B272C4E1D442C6900A4F64C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B272C671D442EA100A4F64C /* CoreLocation.framework */,
+				6B272C4F1D442C6900A4F64C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B272C4A1D442C6900A4F64C /* PokemonGoHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B272C621D442C6900A4F64C /* Build configuration list for PBXNativeTarget "PokemonGoHack" */;
+			buildPhases = (
+				6B272C471D442C6900A4F64C /* Sources */,
+				6B272C481D442C6900A4F64C /* Frameworks */,
+				6B272C491D442C6900A4F64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonGoHack;
+			productName = PokemonGoHack;
+			productReference = 6B272C4B1D442C6900A4F64C /* PokemonGoHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B272C431D442C6900A4F64C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vivian Aranha";
+				TargetAttributes = {
+					6B272C4A1D442C6900A4F64C = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6B272C461D442C6900A4F64C /* Build configuration list for PBXProject "PokemonGoHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B272C421D442C6900A4F64C;
+			productRefGroup = 6B272C4C1D442C6900A4F64C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B272C4A1D442C6900A4F64C /* PokemonGoHack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B272C491D442C6900A4F64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B272C5E1D442C6900A4F64C /* LaunchScreen.storyboard in Resources */,
+				6B272C661D442CCD00A4F64C /* file.gpx in Resources */,
+				6B272C5B1D442C6900A4F64C /* Assets.xcassets in Resources */,
+				6B272C591D442C6900A4F64C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B272C471D442C6900A4F64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B272C561D442C6900A4F64C /* ViewController.m in Sources */,
+				6B272C531D442C6900A4F64C /* AppDelegate.m in Sources */,
+				6B272C501D442C6900A4F64C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B272C571D442C6900A4F64C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B272C581D442C6900A4F64C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B272C5C1D442C6900A4F64C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B272C5D1D442C6900A4F64C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B272C601D442C6900A4F64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B272C611D442C6900A4F64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B272C631D442C6900A4F64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemonGoHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vivian.aranha.PokemonGoHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B272C641D442C6900A4F64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemonGoHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vivian.aranha.PokemonGoHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B272C461D442C6900A4F64C /* Build configuration list for PBXProject "PokemonGoHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B272C601D442C6900A4F64C /* Debug */,
+				6B272C611D442C6900A4F64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B272C621D442C6900A4F64C /* Build configuration list for PBXNativeTarget "PokemonGoHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B272C631D442C6900A4F64C /* Debug */,
+				6B272C641D442C6900A4F64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B272C431D442C6900A4F64C /* Project object */;
+}
